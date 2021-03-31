@@ -22,16 +22,7 @@ li a {
 li a:hover {
   background-color: #111;
 }
-ul li{list-style:none; float:left;}
-ul li:nth-child(5){clear:both;}
-ul li h1 a{text-decoration:none;}
 
-li p {
-  white-space: nowrap;
-}
-li {
-  white-space: nowrap;
-}
 .ul-ul {
   background-color: antiquewhite;
 }
