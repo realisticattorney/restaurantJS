@@ -9,7 +9,6 @@ const home = () => {
   content.appendChild(h1);
   content.appendChild(img);
   content.appendChild(p1);
-  return true;
 };
 
 
