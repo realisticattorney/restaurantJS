@@ -2,7 +2,7 @@
 
 > Project aimed to create different pages connected each through a navbar button, wrapped each of these pages' content within a function exported to a single file (index.js) where all the logic is coded. The project is a second attempt to code using JS as front-end language. Aspect of the pages was incosenquential to the author's goal.
 
-![screenshot](./webpack-demo/dist/assets/repos-assets/screenshot.png)
+![screenshot](./dist/assets/repos-assets/screenshot.png)
 
 Additional description about the project and its features.
 
