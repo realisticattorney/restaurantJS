@@ -1,0 +1,7 @@
+The "source" code is the code that we'll write and edit. The "distribution" code is the minimized and optimized output of our build process that will eventually be loaded in the browser.
+
+
+ src is our source directory. In other words, src is where we write all of the code that webpack is going to bundle up for us. When webpack runs, it goes through all of our files looking for any import statements and then compiles all of the code we need to run our site into a single file inside of the dist folder (short for distribution). Our entry file, then is the main application file that links (either directly or indirectly) to all of the other modules in our project. In this example, it is /src/index.js. The output file is the compiled version - dist/main.js.
+
+ npx webpack --watch
+ you will not have to rerun webpack every time you make a change.
