@@ -7,7 +7,7 @@ const contact = () => {
   // p1.classList.add('text-content');
   // h1.classList.add('title-content');
   h1.textContent = 'Get in touch with us';
-  p1.textContent = 'Want to get in touch? We would love to hear from you';
+  p1.textContent = 'Want to get in touch? We would love to hear from you.';
   content.appendChild(h1);
   content.appendChild(img);
   content.appendChild(p1);
