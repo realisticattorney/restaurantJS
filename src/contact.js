@@ -1,7 +1,7 @@
 const contact = () => {
   const content = document.querySelector('#content');
   const img2 = document.createElement('img');
-  img2.setAttribute('src', '../dist/restaurant-building-800x530.jpeg');
+  img2.setAttribute('src', './dist/restaurant-building-800x530.jpeg');
   const h1 = document.createElement('h1');
   const p1 = document.createElement('p');
   // p1.classList.add('text-content');
