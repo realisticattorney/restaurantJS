@@ -6,6 +6,10 @@
 
 Additional description about the project and its features.
 
+## Live Demo
+
+[live demo](http://germanaquila.me/restaurantJS/)
+
 ## Built With
 
 - Javascript
