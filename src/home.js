@@ -1,7 +1,7 @@
 const home = () => {
   const content = document.querySelector('#content');
   const img = document.createElement('img');
-  img.setAttribute('src', './dist/Indian_Food_Cover.jpeg');
+  img.setAttribute('src', '../dist/Indian_Food_Cover.jpeg');
   const h1 = document.createElement('h1');
   const p1 = document.createElement('p');
   h1.textContent = 'Restorant';

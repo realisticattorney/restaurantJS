@@ -1,4 +1,4 @@
-import Img from './dist/Indian_Food_Cover.jpeg'
+import Img from '../dist/Indian_Food_Cover.jpeg'
 const menuCategories = ['Option 1: ', 'Option 2: ', 'Option3: '];
 const elements = [['Empanadas', 'Pasta Marinara', 'Teriyaki Chicken'], ['Roasted vegetables', 'Caesar Salad', 'Hand Tossed Salad'], ['Strawberry Cake', 'Cheese cake', 'Ice Cream']];
 const menu = () => {
