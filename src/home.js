@@ -1,7 +1,9 @@
+import Img from './dist/Indian_Food_Cover.jpeg'
+
 const home = () => {
   const content = document.querySelector('#content');
-  const img = document.createElement('img');
-  img.setAttribute('src', './dist/Indian_Food_Cover.jpeg');
+  const img = new Image();
+  img.src = Img;
   const h1 = document.createElement('h1');
   const p1 = document.createElement('p');
   // p1.classList.add('text-content');

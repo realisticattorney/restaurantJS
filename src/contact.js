@@ -1,7 +1,9 @@
+import Img from './dist/restaurant-building-800x530.jpeg'
+
 const contact = () => {
   const content = document.querySelector('#content');
-  const img2 = document.createElement('img');
-  img2.setAttribute('src', './dist/restaurant-building-800x530.jpeg');
+  const img = new Image();
+  img.src = Img;
   const h1 = document.createElement('h1');
   const p1 = document.createElement('p');
   // p1.classList.add('text-content');
