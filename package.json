@@ -3,11 +3,7 @@
   "version": "1.0.0",
   "description": "> Project aimed to create different pages connected each through a navbar button, wrapped each of these pages' content within a function exported to a single file (index.js) where all the logic is coded. The project is a second attempt to code using JS as front-end language. Aspect of the pages was incosenquential to the author's goal.",
   "private": true,
-  "scripts": {
-    "dev": "webpack --mode development",
-    "build": "webpack --mode production",
-    "start": "webpack-dev-server --mode development --open"
-  },
+  "scripts": { "dev": "webpack --mode development", "build": "webpack --mode production", "start": "webpack-dev-server --mode development --open" },
   "keywords": [],
   "author": "",
   "license": "ISC",
