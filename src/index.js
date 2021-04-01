@@ -7,6 +7,7 @@ import menu from './menu';
 const append = (option) => {
   document.getElementById('content').innerHTML = '';
   navBar();
+
   document.getElementById('home').addEventListener('click', () => {
     append(1);
   });
@@ -18,14 +19,13 @@ const append = (option) => {
   });
   if (option === 1) {
     home();
-  }
-  if (option === 2) {
+  } else if (option === 2) {
     contact();
-  }
-  if (option === 3) {
+  } else if (option === 3) {
     menu();
+  } else {
+    home();
   }
 };
-
 
 append();

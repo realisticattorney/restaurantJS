@@ -9,8 +9,6 @@ const menu = () => {
   img.src = Img;
   const h1 = document.createElement('h1');
   const p1 = document.createElement('h2');
-  // p1.classList.add('text-content');
-  // h1.classList.add('title-content');
   h1.textContent = 'Our menu';
   p1.textContent = 'Dinner Options. Main Dish, Salad & Dessert';
   content.appendChild(h1);
