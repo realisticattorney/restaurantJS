@@ -1,9 +1,11 @@
-const menuCategories = ['Option 1: ', 'Option 2: ', 'Option3: '];
+import Img from '../dist/Indian_Food_Cover.jpeg';
+const menuCategories = ['Option 1:', 'Option 2:', 'Option3:'];
 const elements = [['Empanadas', 'Pasta Marinara', 'Teriyaki Chicken'], ['Roasted vegetables', 'Caesar Salad', 'Hand Tossed Salad'], ['Strawberry Cake', 'Cheese cake', 'Ice Cream']];
+
 const menu = () => {
   const content = document.querySelector('#content');
-  const img = document.createElement('img');
-  img.setAttribute('src', '../dist/Indian_Food_Cover.jpeg');
+  const img = new Image();
+  img.src = Img;
   const h1 = document.createElement('h1');
   const p1 = document.createElement('h2');
   // p1.classList.add('text-content');
